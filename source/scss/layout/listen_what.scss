@@ -1,0 +1,36 @@
+/* Listen What */
+.listen-what {
+    background-image: url("../../source/img/bkgd2.png");
+    color: $text-color;
+}
+.quote-list {
+    display: flex;
+    justify-content: space-between;
+}
+.quote-item {
+    width: 370px;
+    text-align: justify;
+    .quote-text {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #333333;
+        &::before {
+            content: url("../../source/img/quote-line.png");
+            position: relative;
+            top: -10px;
+        }
+    }
+    .quote-signature{
+        padding-top: 10px;
+        height: 56px;
+        padding-bottom: 150px;
+        .quote-photo{
+            position: absolute;
+        }
+        .quote-name, .quote-title{
+            padding-left: 70px;
+        }
+    }
+    
+    
+}

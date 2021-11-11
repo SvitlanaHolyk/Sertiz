@@ -1,0 +1,47 @@
+.you-get-our-gold {
+    background: url("../img/bkgd2.png");
+}
+.we-offer-list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 195px;
+}
+.we-offer-item {
+    text-align: center;
+    width: 270px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: $dark-grey;
+    border-bottom: 3px solid $dark-grey;
+    .we-offer-btn {
+        background-color: $header-color;
+        font-size: 20px;
+        display: block;
+        padding: 20px;
+        .link{
+            padding: 20px; 
+            width: 100%;
+        }
+    }
+    .font-awesome {
+        font-size: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .we-offer-header {
+        font-size: 18px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .we-offer-description::after {
+        content: "";
+        position: relative;
+        display: block;
+        height: 3px;
+        width: 60px;
+        background-color: $orange;
+        top: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}

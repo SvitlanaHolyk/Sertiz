@@ -1,0 +1,19 @@
+.some-times{
+    background-image: url("../img/bkgd2.png");
+}
+.form-inner{
+    width: 770px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid $quote-bkgd;
+    .form-email{
+        padding: 25px;
+        width: 654.65px;
+        font-style:italic;
+    }
+    .form-btn{
+    color: #fff;
+    background-color: $orange;
+    padding: 25px;
+    }
+}

@@ -1,0 +1,18 @@
+.we-featured {
+    background: url("../img/bkgd4.png");
+    background-size: auto 700px;
+    .section-inner {
+        .featured-list {
+            margin: 0 auto;
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 800px;
+            .featured-item{
+                height: 40px;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}

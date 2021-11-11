@@ -1,0 +1,34 @@
+/* Header */
+.header {
+    height: 900px;
+    margin: 0 auto;
+    background: url("../img/bkgd1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.header-content {
+    position: absolute;
+    bottom: 230px;
+    width: 830px;
+    &-name {
+        font-weight: 900;
+        font-size: 48px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    &-descr {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+    &-slogan {
+        font-weight: 900;
+        font-size: 54px;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #fff;
+        background-color: rgba(0, 0, 0, 0.49);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}

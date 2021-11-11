@@ -1,0 +1,104 @@
+.some-times-send-message {
+    background-image: url("../img/bkgd2.png");
+}
+.form-wrapper {
+    color: $text-color;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.send-us-container {
+    width: 570px;
+    .send-us-header {
+        color: #fff;
+        background-color: $dark-grey;
+        font-size: 18px;
+        padding: 15px;
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .send-us-description {
+        margin-bottom: 20px;
+    }
+    .send-us-name,
+    .send-us-email {
+        font-style: italic;
+        border: 1px solid $text-color;
+        padding: 10px;
+        width: 270px;
+    }
+    .send-us-name {
+        margin-right: 25px;
+    }
+    .send-us-message {
+        margin-top: 20px;
+        font-style: italic;
+        width: 100%;
+        height: 185px;
+        padding: 10px;
+        resize: none;
+        border: 1px solid $text-color;
+    }
+    .send-us-btn {
+        text-transform: uppercase;
+        color: #fff;
+        background-color: $orange;
+        width: 120px;
+        padding: 10px 20px;
+        margin: 20px 20px 20px 0;
+    }
+}
+.get-in-touch-container {
+    width: 340px;
+    .get-in-touch-header {
+        color: #fff;
+        background-color: $dark-grey;
+        font-size: 18px;
+        padding: 15px;
+        width: 245px;
+        margin-bottom: 20px;
+    }
+}
+.get-in-touch-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .get-in-touch-item {
+        font-size: 14px;
+        line-height: 35px;
+        color: $orange;
+        .get-in-touch-link {
+            color: $text-color;
+        }
+        .icon-phone:before {
+            content: "\e942";
+            background-color: $dark-grey;
+            padding: 8px;
+        }
+        .icon-envelop:before {
+            content: "\e945";
+            background-color: $dark-grey;
+            padding: 8px;
+        }
+        .icon-location:before {
+            content: "\e947";
+            background-color: $dark-grey;
+            padding: 8px;
+        }
+        .icon-earth:before {
+            content: "\e9ca";
+            background-color: $dark-grey;
+            padding: 8px;
+        }
+    }
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+    .social-link {
+        display: inline-block;
+        height: 40px;
+    }
+}

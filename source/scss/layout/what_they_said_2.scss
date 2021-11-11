@@ -1,0 +1,55 @@
+.what-they-said-2 {
+    background-image: url("../img/bkgd2.png");
+}
+.consulting-wrapper {
+    padding-top: 30px;
+    display: flex;
+}
+
+.consulting-services-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+    justify-content: space-between;
+    .consulting-services-container {
+        width: 270px;
+        position: relative;
+        margin-bottom: 35px;
+        .consulting-services-btn {
+            position: absolute;
+            left: 13px;
+            top: 90px;
+            color: #fff;
+            background-color: $dark-grey;
+            font-size: 14px;
+            padding: 15px 20px 15px 15px;
+        }
+    }
+}
+
+.consulting-description {
+    width: 580px;
+    padding-left: 30px;
+    text-align: justify;
+    .consulting-description-header {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .consulting-description-text {
+        font-family: 'Lato-Light', sans-serif;
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        color: $text-color;
+    }
+
+    .consulting-description-btn {
+        display: inline-block;
+        background-color: $orange;
+        color: #fff;
+        font-size: 16px;
+        padding: 20px 30px 20px 30px;
+    }
+}

@@ -1,0 +1,68 @@
+.trey-trust{
+    background-image: url("../img/bkgd2.png");
+}
+.we-trust-list{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    .we-trust-item{
+        width: 270px;
+        padding-bottom: 25px;
+    }
+}
+.portfolio-btn-list{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    margin: 30px auto;
+    .portfolio-btn-item{
+        .portfolio-btn-link{
+            display: inline-block;
+            padding: 10px 30px;
+            color:$text-color;
+            border: 1px solid $text-color;
+            &:hover{
+            background-color: $dark-grey;
+            color: $orange;
+            }
+        }
+    }
+}
+
+.portfolio-container{
+    height: 100%;
+    border: 1px solid $dark-grey;
+    text-align: center;
+    .portfolio-name{
+        font-size: 18px;
+        color: $header-color;
+        padding-top: 30px;
+        &::after{
+            content: "";
+            position:relative;
+            display: block;
+            height: 3px;
+            width: 60px;
+            background-color: $orange;
+            top: 30px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    .portfolio-description{
+        width: 228px;
+        font-size: 14px;
+        color: $text-color;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+    .portfolio-description-btn{
+        display: inline-block;
+        padding: 10px 30px;
+        background-color: $orange;
+    }
+}

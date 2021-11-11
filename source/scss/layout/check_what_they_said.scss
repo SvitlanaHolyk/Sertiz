@@ -1,0 +1,29 @@
+.check-what-they-said {
+    background: url("../img/bkgd5.png") no-repeat;
+    background-size: cover;
+    min-height: 485px;
+    .check-what-they-said-header {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 600;
+        padding-top: 100px;
+        &::after {
+            content: "";
+            position: relative;
+            display: block;
+            height: 3px;
+            width: 60px;
+            background-color: $orange;
+            top: 50px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    .check-what-they-said-description{
+        padding-top: 80px;
+        width: 570px;
+        margin: 0 auto;
+        color: #fff;
+    }
+}

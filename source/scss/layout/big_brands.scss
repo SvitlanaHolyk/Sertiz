@@ -1,0 +1,15 @@
+/* Big Brands */
+.big-brands{
+    background-image: url("../../source/img/bkgd2.png");
+    background-size: cover;
+    & .brands-list{
+        display: flex;
+        justify-content: center;
+        & .brands-item{
+            & .brands-link{
+                display: inline-block;
+                height: 238px;
+            }
+        }
+    }
+}
